@@ -1,0 +1,12 @@
+.doctorslist .navlink{
+    color:#0d6659!important;
+}
+.doctorslist .navlink:active p{
+    background-color: #0d6659!important;
+    color:#fff!important;
+}
+@media only screen and (max-device-width:768px){
+    .doctorslist .page{
+        margin-left:-35px!important;
+    }
+}

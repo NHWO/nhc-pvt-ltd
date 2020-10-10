@@ -1,0 +1,16 @@
+.links{
+    margin:50px;
+}
+.links .linkBtn:hover{
+    color:#fff!important;
+    background-color: maroon!important;
+    transition: ease-in-out;
+}
+@media only screen and (max-width:768px){
+    .linkCard{
+        height:auto;
+    }
+    .linkCard table tr{
+        margin-bottom: 4px;
+    }
+}

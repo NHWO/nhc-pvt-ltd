@@ -1,0 +1,15 @@
+.events{
+    
+}
+@media only screen and (max-device-width:768px){
+    .events .eventImage{
+        margin:90px;
+    }
+
+}
+@media only screen and (max-device-width:430px){
+    .events .eventImage{
+        margin:10px;
+    }
+
+}

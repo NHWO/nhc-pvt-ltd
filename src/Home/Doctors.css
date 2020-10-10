@@ -1,0 +1,16 @@
+@media only screen and (max-device-width:768px){
+    .Doctors .cards{
+        margin-left: 60px;
+    }
+    .Doctors .card{
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-device-width:430px){
+    .Doctors .cards{
+        margin-left: -10px;
+    }
+    .Doctors .card{
+        margin-bottom: 20px;
+    }
+}

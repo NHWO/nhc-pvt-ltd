@@ -1,0 +1,8 @@
+.corousel img{
+   height:85vh!important;
+}
+@media only screen and (max-device-width: 768px) {
+   .corousel img{
+      height:auto!important;
+   }
+}

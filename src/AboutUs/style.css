@@ -1,0 +1,14 @@
+.testimonials img{
+    border:10px solid #fff;
+    border-radius:50%;
+}
+@media only screen and (max-device-width:768px){
+    .documents embed{
+        width:360px;
+        height: 500px;
+        margin-left:-10px!important;
+    }
+    .vision{
+        margin-left:-40px!important;
+    }
+}

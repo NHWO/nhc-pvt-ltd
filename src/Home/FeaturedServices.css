@@ -1,0 +1,20 @@
+.card:hover{
+    box-shadow: 5px 10px 15px -5px rgba(0,0,0,0.3)!important;
+    transition:ease-in-out;
+}
+@media only screen and (max-device-width:768px){
+    .featuredServices .cards{
+        margin-left: 100px;
+    }
+    .featuredServices .card{
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-device-width:430px){
+    .featuredServices .cards{
+        margin-left: 35px;
+    }
+    .featuredServices .card{
+        margin-bottom: 20px;
+    }
+}

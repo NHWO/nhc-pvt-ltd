@@ -1,0 +1,23 @@
+.footer #list{ 
+    color: white;  
+} 
+.footer li{ 
+    list-style: none; 
+} 
+.footer li::before{ 
+    content: "\00BB"; 
+    margin-left: 5px;
+} 
+.footer span {
+    position: relative;
+    left: 12px;
+  }
+
+  @media only screen and (max-device-width:768px){
+    .footer table{
+        margin-left:20px;
+    }
+    .footer .icons{
+        margin-left:10px;
+    }
+}

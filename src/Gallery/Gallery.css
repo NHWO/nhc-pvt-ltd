@@ -1,0 +1,9 @@
+
+@media only screen and (max-device-width:768px){
+
+    .Gallery .card{
+        width:18rem!important;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+}

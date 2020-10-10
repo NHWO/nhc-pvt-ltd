@@ -1,0 +1,15 @@
+.aboutUs .image1 img{
+    width: 100%;
+    max-width: 400px;
+    height: 450px;
+    
+}
+@media only screen and (max-device-width:768px){
+    .aboutUs .image1{
+        margin-left: 0px!important;
+    }
+    .aboutUs .image1 p{
+        margin-left: 0px!important;
+        width: 328px!important;
+    }
+}
