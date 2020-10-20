@@ -79,7 +79,7 @@ const NavBar = (props) => {
               <NavLink  style={{color:"gray",textDecoration:"none"}} className="links" to="/gallery">Gallery</NavLink>
             </NavItem>
             <NavItem style={{marginTop:"9px"}}>
-              <NavLink style={{color:"gray",textDecoration:"none"}} className="links" to="/hiring">Hiring</NavLink>
+              <NavLink style={{color:"gray",textDecoration:"none"}} className="links" to="/hiring">Vacancies</NavLink>
             </NavItem>
             <NavItem style={{marginTop:"9px"}}>
               <NavLink  style={{color:"gray",textDecoration:"none"}} className="links" to="/contact-us">Contact Us</NavLink>
