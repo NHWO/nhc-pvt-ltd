@@ -21,6 +21,8 @@ import Hiring from "./Hiring/Hiring";
 import Application from "./Hiring/Application";
 import Documents from "./AboutUs/Documents";
 import AdminLogin from "./AdminLogin";
+import NhcVacancy from './Hiring/nhc _vacancy';
+import ApplicationForm from './Hiring/ApplicationForm';
 
 function App() {
   return (
@@ -47,9 +49,11 @@ function App() {
               <Route exact path="/departments" component={Departments}/>
               <Route exact path="/testimonials" component={Testimonials}/>
               <Route exact path="/hiring" component={Hiring}/>
-              <Route exact path="/application-form" component={Application}/>
+              <Route exact path="/application" component={Application}/>
               <Route exact path="/documents" component={Documents}/>
               <Route exact path="/admin" component={AdminLogin}/>
+              <Route exact path="/nhc-vacancy" component={NhcVacancy}/>
+              <Route exact path="/application-form" component={ApplicationForm}/>
           </Switch>
       </Typography>
       <div style={{backgroundColor:"#118574"}}>

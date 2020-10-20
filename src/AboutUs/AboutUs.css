@@ -1,8 +1,11 @@
 .aboutUs .image1 img{
     width: 100%;
     max-width: 400px;
-    height: 450px;
-    
+    height: 450px; 
+}
+.aboutUs .image1 p{
+    width: 100%;
+    max-width: 34rem;
 }
 @media only screen and (max-device-width:768px){
     .aboutUs .image1{

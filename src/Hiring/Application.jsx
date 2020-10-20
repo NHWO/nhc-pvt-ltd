@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "@material-ui/core";
+import { NavLink } from "react-router-dom";
 
 const Application  = () => {
     return(
@@ -27,6 +28,9 @@ const Application  = () => {
                                 <label for="exampleInputEmail1">Message</label>
                                 <input type="textarea" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Write Your Message here"/>
                             </div><br/><br/>
+                            <NavLink to="/Application-form">
+                            Download Application Form
+                            </NavLink><br/><br/>
                                 <div className="form-group" style={{textAlign:"center"}}>
                                 <Button style={{backgroundColor:"#0d6659",color:"#fff",paddingRight:"5px",width:"200px"}}>
                                     Submit  

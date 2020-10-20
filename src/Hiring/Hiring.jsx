@@ -22,11 +22,14 @@ const Hiring = () => {
                             <p>Incentives:2000/-</p>
                             <p>Apply Mode: Offline</p>
                             <p><AccessTimeIcon style={{color:"maroon",marginRight:"5px"}}/>Argent hiring</p>
-                            <Button style={{color:"White",backgroundColor:"#0d6659"}}><NavLink to="/application-form" style={{color:"#fff",textDecoration:"none"}}>Apply Now</NavLink></Button>
+                            <NavLink to="/nhc-vacancy" download="nhc_vacancy.pdf">
+                            Download Notification
+                            </NavLink>
+                            <Button style={{color:"White",backgroundColor:"#0d6659",marginLeft:"30px"}}><NavLink to="/application" style={{color:"#fff",textDecoration:"none"}}>Apply Now</NavLink></Button>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-12">
-                    <div className="vacancy" style={{backgroundColor:"#fff",padding:"10px"}}>
+                    {/* <div className="vacancy" style={{backgroundColor:"#fff",padding:"10px"}}>
                             <h5>Regional Health Manager for Medical counseling center</h5>
                             <p>Naresh health care Pvt. Ltd.</p>
                             <br/>
@@ -38,10 +41,10 @@ const Hiring = () => {
                             <p>Apply Mode: Offline</p>
                             <p><AccessTimeIcon style={{color:"maroon",marginRight:"5px"}}/>Argent hiring</p>
                             <Button style={{color:"White",backgroundColor:"#0d6659"}}><NavLink to="/application-form" style={{color:"#fff",textDecoration:"none"}}>Apply Now</NavLink></Button>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="col-lg-4 col-md-4 col-12">
-                    <div className="vacancy" style={{backgroundColor:"#fff",padding:"10px"}}>
+                    {/* <div className="vacancy" style={{backgroundColor:"#fff",padding:"10px"}}>
                             <h5>Regional Health Manager for Medical counseling center</h5>
                             <p>Naresh health care Pvt. Ltd.</p>
                             <br/>
@@ -53,7 +56,7 @@ const Hiring = () => {
                             <p>Apply Mode: Offline</p>
                             <p><AccessTimeIcon style={{color:"maroon",marginRight:"5px"}}/>Argent hiring</p>
                             <Button style={{color:"White",backgroundColor:"#0d6659"}}><NavLink to="/application-form" style={{color:"#fff",textDecoration:"none"}}>Apply Now</NavLink></Button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div><br/><br/><br/>

@@ -19,7 +19,7 @@ const AboutUs = () => {
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-12 image1" style={{marginLeft:"-60px"}}>
                             <img src={i1} alt="i1" />
-                            <p style={{color:"#fff",backgroundColor:"#118574",width:"400px",marginLeft:"71px"}}><h4>Dr. Naresh Manhar</h4>Director</p>
+                            <p style={{color:"#118574",width:"400px",marginLeft:"71px"}}><h4>Dr. Naresh Manhar</h4>Director</p>
                         </div>
                         <div className="col-lg-6 col-md-6 col-12">
                             <h2>Some Words About Us</h2>

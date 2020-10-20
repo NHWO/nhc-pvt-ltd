@@ -70,6 +70,9 @@ const NavBar = (props) => {
                 <DropdownItem style={{marginTop:"10px"}}>
                   <NavLink  style={{color:"gray",textDecoration:"none"}} to="/testimonials">Testimonials</NavLink>
                 </DropdownItem>
+                <DropdownItem style={{marginTop:"10px"}}>
+                 <NavLink  style={{color:"gray",textDecoration:"none"}} to="/documents">Documents</NavLink>
+                </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem style={{marginTop:"9px"}}>
