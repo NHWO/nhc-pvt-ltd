@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import vacancy from "./nhc_vacancy.pdf";
+import vacancy from "./nhc_vacancy-converted.pdf";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../node_modules/bootstrap/dist/js/bootstrap.min.js";
 
